@@ -76,7 +76,8 @@
 
 			<div class="contact">
 				<div class="contact-form">
-					<form action="https://formspree.io/f/myyoevbp" method="POST">
+					<form name="contact" method="POST" data-netlify="true">
+						<input type="hidden" name="form-name" value="contact">
 						<div class="row">
 							<div class="input">
 								<input type="text" placeholder="First Name" />
@@ -87,7 +88,7 @@
 						</div>
 						<div class="row">
 							<div class="input">
-								<input type="email" name="_replyto" placeholder="Email" />
+								<input type="email" name="email" placeholder="Email" />
 							</div>
 							<div class="input">
 								<input type="text" placeholder="Subject" />
