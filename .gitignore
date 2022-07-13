@@ -14,3 +14,5 @@
 
 # Local Netlify folder
 .netlify
+
+${XDG_CACHE_HOME}
